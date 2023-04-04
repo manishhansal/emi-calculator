@@ -13,6 +13,7 @@
 
 .slider {
   width: 100%;
+  cursor: pointer;
 }
 
 .labels {
@@ -21,13 +22,13 @@
 }
 
 .tenureContainer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
 .tenure {
-  width:15%;
+  width: 15%;
   height: 50px;
   border: none;
   border-radius: 100px;
