@@ -93,12 +93,14 @@ function App() {
         title={"Interest Rate (in %)"}
         state={interest}
         setState={setInterest}
+        max={100}
       />
 
       <TextInput
         title={"Processing Fee (in %)"}
         state={fee}
         setState={setFee}
+        max={100}
       />
 
       <SliderInput

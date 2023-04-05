@@ -1,6 +1,6 @@
 import React from "react";
 
-const TextInput = ({ title, state, setState }) => {
+const TextInput = ({ title, state, setState,max }) => {
   return (
     <>
       <span className="title">{title}</span>
@@ -9,6 +9,8 @@ const TextInput = ({ title, state, setState }) => {
         value={state}
         onChange={(e) => setState(e.target.value)}
         placeholder={title}
+        min={0}
+        max={max}
       />
     </>
   );
